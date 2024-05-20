@@ -1,0 +1,81 @@
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display+SC:ital,wght@0,400;0,700;0,900;1,400;1,700;1,900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bodoni+Moda:ital,opsz,wght@0,6..96,400..900;1,6..96,400..900&display=swap');
+
+:root{
+  --main: #001f3f;
+  --accent: #d4af37;
+  --background: #f7e7ce;
+  --grey: #f5f5f5;
+}
+
+body{
+  margin: 0;
+  padding: 0;
+  height: 100vh;
+  font-size: medium;
+}
+
+.header{
+  background-color: var(--main);
+  height: 20%;
+}
+
+.header div:nth-of-type(1){
+  height: 55%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.header div:nth-of-type(2){
+  height: 15%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+header div:nth-of-type(3){
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.heading{
+  text-align: center;
+  font-family: "Playfair Display SC";  
+}
+
+.logo{
+  color: var(--accent);
+  font-size: 4rem;
+  letter-spacing: 5px;
+}
+
+.slogan{
+  color: var(--accent);
+}
+
+.nav div{
+  display: flex;
+  justify-content: center;
+}
+
+.nav-button{
+  height:1.8rem;
+  width:5rem;
+  border-radius: 8px;
+  background-color: var(--main);
+  border-color: var(--grey);
+  color: var(--grey);
+  font-family: "Bodoni moda";
+}
+
+@media only screen and (max-width: 600px){
+  header 
+
+  .logo{
+    letter-spacing: 0;
+    font-size: 3rem;
+  }
+
+}
