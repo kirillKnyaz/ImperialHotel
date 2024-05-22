@@ -50,7 +50,7 @@ body {
 .header-subtitle {
     font-family: 'Playfair Display', serif;
     font-weight: bold;
-    font-size: 33px;
+    font-size: 28px;
     color: #F7E7CE;
     margin: 0;
 }
@@ -117,9 +117,7 @@ body {
     object-fit: cover;
 }
 
-.custom-carousel-icon {
-    filter: invert(1) sepia(1) saturate(5) hue-rotate(60deg);
-}
+
 
 .footer {
     background-color: #001F3F;
