@@ -71,6 +71,10 @@ body{
   background-color: var(--background);
 }
 
+.rooms div{
+  max-height:100% ;
+}
+
 .rooms article{
   justify-self: center;
   height: 80%;
@@ -103,7 +107,6 @@ body{
   background-color: var(--accent);
   color: var(--main);
   font-family: "Bodoni moda";
-  font-weight: 500;
 }
 
 @media only screen and (max-width: 768px) {
@@ -112,4 +115,13 @@ body{
 
 @media only screen and (min-width: 1050px){
   .logo{font-size: 3vw;}
+}
+
+@media only screen and (min-width: 768px) {
+  .carousel-inner .carousel-item {
+    display: flex;
+  }
+  .carousel-inner .carousel-item section {
+    flex: 1;
+  }
 }

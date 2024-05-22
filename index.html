@@ -37,41 +37,62 @@
       </div>
     </main>
 
-    <div class="container-fluid">
-      <div class="row rooms">
-        <div class="col-xl-3 col-lg-4 col-md-6 col-sm-10 offset-sm-1 offset-md-0">
-          <section>
-            <article>
-              <img src="images/hotel-room.jpg" class="room-pic" alt="picture of queen room">
-              <p>QUEEN</p>
-              <button class="price">1500$</button>
-              <button class="book">Book Now</button>
-            </article>
-          </section>
+    <div id="roomCarousel" class="carousel slide" data-interval="false">
+      <div class="carousel-inner">
+        <div class="carousel-item active">
+          <div class="row rooms">
+            <div class=" offset-md-3 col-md-6 offset-lg-4 col-lg-4">
+              <section>
+                <article>
+                  <img src="images/hotel-room.jpg" class="room-pic d-block w-100" alt="picture of queen room">
+                  <p>QUEEN</p>
+                  <button class="price">1500$</button>
+                  <button class="book">Book Now</button>
+                </article>
+              </section>
+            </div>
+          </div>
         </div>
-        <div class="col-xl-3 offset-xl-1 col-lg-4 col-md-6 d-none d-md-block">
-          <section>
-            <article>
-              <img src="images/king-room.jpg" class="room-pic" alt="picture of king room">
-              <p>KING</p>
-              <button class="price">5000$</button>
-              <button class="book">Book Now</button>
-            </article>
-          </section>
+        <div class="carousel-item">
+          <div class="row rooms">
+            <div class="offset-3 col-md-6 offset-lg-4 col-lg-4">
+              <section>
+                <article>
+                  <img src="images/king-room.jpg" class="room-pic d-block w-100" alt="picture of king room">
+                  <p>KING</p>
+                  <button class="price">5000$</button>
+                  <button class="book">Book Now</button>
+                </article>
+              </section>
+            </div>
+          </div>
         </div>
-        <div class="col-xl-3 offset-xl-1 col-lg-4 d-none d-lg-block">
-          <section>
-            <article>
-              <img src="images/presidential-room.jpg" class="room-pic" alt="picture of presidential room">
-              <p>PRESIDENTIAL</p>           
-              <button class="price">15000$</button>
-              <button class="book">Book Now</button>
-            </article>
-          </section>
+        <div class="carousel-item">
+          <div class="row rooms">
+            <div class="offset-3 col-md-6 offset-lg-4 col-lg-4">
+              <section>
+                <article>
+                  <img src="images/presidential-room.jpg" class="room-pic d-block w-100" alt="picture of presidential room">
+                  <p>PRESIDENTIAL</p>
+                  <button class="price">15000$</button>
+                  <button class="book">Book Now</button>
+                </article>
+              </section>
+            </div>
+          </div>
         </div>
       </div>
-      
+      <a class="carousel-control-prev" href="#roomCarousel" role="button" data-slide="prev">
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="sr-only">Previous</span>
+      </a>
+      <a class="carousel-control-next" href="#roomCarousel" role="button" data-slide="next">
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="sr-only">Next</span>
+      </a>
     </div>
+
+    
 
     <footer class="container-fluid footer">
       <div class="row h-50">
