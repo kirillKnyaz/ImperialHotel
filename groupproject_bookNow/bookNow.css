@@ -1,0 +1,75 @@
+/*CAROUSEL*/
+
+.suite-button{
+    font-family:"Playfair Display", sans-serif;
+    font-size: 2rem;
+    font-weight:bold;
+    background:#D4AF37;
+    text-decoration:none;
+    border-radius:15px;
+    bs-
+    cursor: pointer;
+    display:flex-end;
+}
+
+.suite-button:hover{
+    background-color:#001F3F;
+}
+
+.suite-button:focus{
+    background-color: #333333;
+}
+
+.suite-button:active{
+    background-color:#333333;
+}
+
+.carousel-controls{
+    color:#D4AF37;
+    width:100%;
+}
+
+
+
+
+.container-sm{
+    background-color: #F7F7CE;
+    border: 3px;
+    padding: 0;
+    border-color: black;
+    font-family:"Libre Bodoni", sans-serif;
+    font-weight:bold;
+}
+
+#visa, #mastercard, #americanExpress, #dinersClub{
+    border-color: black;
+    text-size-adjust:1.5em;
+}
+
+.confirmationNumber{
+    position:relative;
+    justify-content: center;
+}
+
+/*BOOK NOW BUTTON*/
+#submitBTN{
+    font-family:"Playfair Display", sans-serif;
+    font-size: 1.5rem;
+    font-weight:bold;
+    background:#001F3F;
+    text-decoration:none;
+    border-radius:15px;
+    cursor: pointer;
+}
+
+#submitBTN:hover{
+    background-color:#D4AF37;
+}
+
+#submitBTN:focus{
+    background-color: #333333;
+}
+
+#submitBTN:active{
+    background-color:#333333;
+}
