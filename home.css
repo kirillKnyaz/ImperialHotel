@@ -60,7 +60,7 @@ body{
 
 .image{
   height: 500px;
-  background-image:url(pictures/poolhotel.jpg);
+  background-image:url(images/poolhotel.jpg);
   background-repeat: no-repeat;
   background-size: cover;
   background-position: 40%;
