@@ -34,7 +34,7 @@ header div, footer div, .rooms section, .room-lg section{
 
 header h1, header p, footer h1, footer p, .rooms h2, .room-info h2, .forms h2, .forms-large h2 {
   font-family: "Playfair Display SC";
-  color: var(--accent);
+  color: var(--grey);
 }
 
 .logo{
@@ -67,7 +67,7 @@ header a:hover{
 
 .footer-text{
   font-family: "Bodoni moda";
-  color: var(--grey);
+  color: var(--accent);
 }
 
 .hotel-pic{
