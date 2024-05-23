@@ -106,6 +106,10 @@ header a:hover{
   padding-bottom: 2rem;
 }
 
+.room-info{
+  padding-top: 1rem;
+}
+
 .room-lg article{
   flex-direction: row;
   justify-content: space-between;
@@ -171,7 +175,7 @@ header a:hover{
 }
 
 .forms{
-  height:30vh;
+  height: 30vh;
   background-color: var(--background);
   display: flex;
   align-items: center;
@@ -180,8 +184,6 @@ header a:hover{
 .forms-large{
   height:40vh;
   background-color: var(--background);
-  display: flex;
-  align-items: center;
   padding: 0 1rem 0;
 }
 
