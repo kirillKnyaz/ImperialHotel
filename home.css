@@ -32,7 +32,7 @@ header div, footer div, .rooms section, .room-lg section{
   height: 100%;
 }
 
-header p, footer p, .rooms p{
+header h1, header p, footer h1, footer p, .rooms h2, .room-info h2{
   font-family: "Playfair Display SC";
   color: var(--accent);
 }
@@ -70,7 +70,7 @@ header a:hover{
   color: var(--grey);
 }
 
-.image{
+.hotel-pic{
   height: 500px;
   background-image:url(images/poolhotel.jpg);
   background-repeat: no-repeat;
@@ -87,16 +87,25 @@ header a:hover{
   max-height:100% ;
 }
 
-.rooms article, .room-lg article{
+.rooms article,.room-lg article{
   height: 80%;
   width: 80%;
   border-radius: 8px;
   background-color: var(--main);
   display: flex;
+}
+
+.rooms article, .room-info{
   flex-direction: column;
   justify-content: space-between;
   align-items: center;
   padding-bottom: 2rem;
+}
+
+.room-lg article{
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
 }
 
 .room-pic{
@@ -104,6 +113,31 @@ header a:hover{
   height: 50%;
   object-fit: cover;
   border-radius: 8px 8px 0 0;
+}
+
+.room-lg img{
+  width: 50%;
+  height: 100%;
+  object-fit: cover;
+  border-radius: 8px 0 0 8px;
+}
+
+.room-info{
+  height: 100%;
+  width: 50%;
+  display: flex;
+}
+
+.room-specs{
+  width: 100%;
+  text-align: start;
+  font-size: 1.2rem;
+}
+
+.room-buttons{
+  display: flex;
+  justify-content: space-around;
+  width: 100%;
 }
 
 .rooms p{
@@ -118,6 +152,7 @@ header a:hover{
   background-color: var(--accent);
   color: var(--main);
   font-family: "Bodoni moda";
+  font-weight: 900;
 }
 
 @media only screen and (max-width: 768px) {
@@ -128,11 +163,3 @@ header a:hover{
   .logo{font-size: 3vw;}
 }
 
-@media only screen and (min-width: 768px) {
-  .carousel-inner .carousel-item {
-    display: flex;
-  }
-  .carousel-inner .carousel-item section {
-    flex: 1;
-  }
-}
