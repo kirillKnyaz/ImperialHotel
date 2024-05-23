@@ -32,7 +32,7 @@ header div, footer div, .rooms section, .room-lg section{
   height: 100%;
 }
 
-header h1, header p, footer h1, footer p, .rooms h2, .room-info h2{
+header h1, header p, footer h1, footer p, .rooms h2, .room-info h2, .forms h2, .forms-large h2 {
   font-family: "Playfair Display SC";
   color: var(--accent);
 }
@@ -81,6 +81,10 @@ header a:hover{
 .rooms, .room-lg{
   height: 60vh;
   background-color: var(--background);
+}
+
+.room-lg{
+  max-height: 400px
 }
 
 .rooms div{
@@ -153,6 +157,63 @@ header a:hover{
   color: var(--main);
   font-family: "Bodoni moda";
   font-weight: 900;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-decoration: none;
+  transition: 200ms;
+}
+
+.book:hover{
+  background-color: var(--main);
+  color: var(--accent);
+  text-decoration: none;
+}
+
+.forms{
+  height:30vh;
+  background-color: var(--background);
+  display: flex;
+  align-items: center;
+}
+
+.forms-large{
+  height:40vh;
+  background-color: var(--background);
+  display: flex;
+  align-items: center;
+  padding: 0 1rem 0;
+}
+
+.forms div, .forms-large div{
+  height:100%;
+}
+
+.forms section, .forms-large section{
+  height: 80%;
+  width: 100%;
+  background-color: var(--main);
+  border-radius: 8px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+  padding: 1rem 1rem 2rem;
+}
+
+.forms label, .forms-large label{
+  font-family: "Bodoni moda";
+  color: var(--grey);
+  width: 6rem;
+}
+
+.forms-large .row{
+  margin: 0.5rem 0 0.5rem;
+}
+
+.payment{
+  width: 100%;
+  display: flex;
 }
 
 @media only screen and (max-width: 768px) {

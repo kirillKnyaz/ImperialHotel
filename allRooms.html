@@ -31,7 +31,60 @@
       </div>
     </header>
 
-    <div class="container-fluid">
+    <div id="roomLargeCarousel" class="carousel slide d-lg-none" data-interval="false">
+      <div class="carousel-inner">
+        <div class="carousel-item active">
+          <div class="row rooms">
+            <div class="offset-sm-3 col-sm-6  offset-md-3 col-md-6 offset-lg-4 col-lg-4">
+              <section>
+                <article>
+                  <img src="images/hotel-room.jpg" class="room-pic" alt="picture of queen room">
+                  <h2>QUEEN</h2>
+                  <button class="price">$1500</button>
+                  <a class="book" href="bookNow.html">Book Now</a>
+                </article>
+              </section>
+            </div>
+          </div>
+        </div>
+        <div class="carousel-item">
+          <div class="row rooms">
+            <div class="offset-sm-3 col-sm-6 col-md-6 offset-lg-4 col-lg-4">
+              <section>
+                <article>
+                  <img src="images/king-room.jpg" class="room-pic" alt="picture of king room">
+                  <h2>KING</h2>
+                  <button class="price">$5000</button>
+                  <a class="book" href="bookNow.html">Book Now</a>
+                </article>
+              </section>
+            </div>
+          </div>
+        </div>
+        <div class="carousel-item">
+          <div class="row rooms">
+            <div class="offset-sm-3 col-sm-6 col-md-6 offset-lg-4 col-lg-4">
+              <section>
+                <article>
+                  <img src="images/presidential-room.jpg" class="room-pic d-block w-100" alt="picture of presidential room">
+                  <h2>PRESIDENTIAL</h2>
+                  <button class="price">$15000</button>
+                  <a class="book" href="bookNow.html">Book Now</a>
+                </article>
+              </section>
+            </div>
+          </div>
+        </div>
+      </div>
+      <a class="carousel-control-prev" href="#roomCarousel" role="button" data-slide="prev">
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+      </a>
+      <a class="carousel-control-next" href="#roomCarousel" role="button" data-slide="next">
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+      </a>
+  </div>
+
+    <div class="container-fluid d-none d-lg-block">
 			<div class="row room-lg d-flex justify-content-center">
 				<section class="col-sm-12">
 					<article>
@@ -48,7 +101,7 @@
               </ul>
               <div class="room-buttons">
                 <button class="price">$1500</button>
-                <button class="book">Book Now</button>
+                <a class="book" href="bookNow.html">Book Now</a>
               </div>
             </div>
           </article>
@@ -85,14 +138,14 @@
             <div class="room-info">
               <h2>PRESIDENTIAL</h2>
               <ul class="footer-text room-specs">
-                <li>2000sqft</li>
-                <li>Office & Garage with car maintenace</li>
-                <li>2 Queen or 1 King beds </li>
+                <li>10000sqft</li>
+                <li>Office, Garage & more</li>
+                <li>2 King beds </li>
                 <li>24h Service with allocated Chef</li>
-                <li>One of One</li>
+                <li>One of One Suite, beyond comparison</li>
               </ul>
               <div class="room-buttons">
-                <button class="price">$5000</button>
+                <button class="price">$15000</button>
                 <button class="book">Book Now</button>
               </div>
             </div>
@@ -102,15 +155,15 @@
     </div>
 
     <footer class="container-fluid">
-    <div class="row h-50">
-        <h1 class="col logo">LUXE IMPERIAL HOTEL</h1>
-    </div>
-    <div class="row h-25">
-        <div class="col-lg-4 col-sm-4 order-lg-1 order-sm-2 footer-text">123 Royal ave Vancouver, BC V6E 1H2</div>
-        <p class="col-lg-4 col-sm-12 order-lg-2 order-sm-1">LUXURY BEYOND YOUR DREAMS</p>
-        <div class="col-lg-3 col-sm-4 order-lg-3 order-sm-3 footer-text">+1(604) 555-1234</div>
-        <div class="col-lg-1 offset-lg-10 col-sm-3 offset-sm-1 order-lg-4 order-sm-4 footer-text">copyright</div>
-    </div>
+      <div class="row h-50">
+          <h1 class="col logo">LUXE IMPERIAL HOTEL</h1>
+      </div>
+      <div class="row h-25">
+          <div class="col-lg-4 col-sm-4 order-lg-1 order-sm-2 footer-text">123 Royal ave Vancouver, BC V6E 1H2</div>
+          <p class="col-lg-4 col-sm-12 order-lg-2 order-sm-1">LUXURY BEYOND YOUR DREAMS</p>
+          <div class="col-lg-3 col-sm-4 order-lg-3 order-sm-3 footer-text">+1(604) 555-1234</div>
+          <div class="col-lg-1 offset-lg-10 col-sm-3 offset-sm-1 order-lg-4 order-sm-4 footer-text">copyright</div>
+      </div>
     </footer>
 </body>
 </html>
